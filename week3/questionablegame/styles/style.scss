@@ -1,0 +1,70 @@
+$font:'Permanent Marker', 'Arial', sans-serif;
+
+$header-background-color: orange;
+$subheader-background-color: rgb(63, 63, 191);
+$question-background-color: black;
+$answer-background-color: white;
+$next-background-color: rgb(249, 252, 42);
+
+$header-font-color: black;
+$question-font-color: white;
+$answer-font-color: black;
+
+#container  {
+	width:100%;//tina
+}
+body {
+	font-family:$font;
+	background-color: $subheader-background-color;
+}
+
+header {
+	background-color: $header-background-color;
+	text-align: center;
+	border-radius: 5px;//tina
+	margin-top: 10px;//tina
+}
+
+
+#score {
+	width: 72%;//tina
+	height: 40%;//tina...no effect
+	margin-top: 10px;//tina
+	
+	
+
+}
+button {
+	background-color: $subheader-background-color;
+	color: $answer-font-color;
+	width: 72%;
+	margin-left:14%;
+	border: none;
+
+}
+
+#questions {
+
+	background-color: $question-background-color;
+	color: $question-font-color;
+	height: 200px;
+	width: 72%;//tina
+	margin-left:14%;
+	margin-bottom: 15px;//tina
+	text-align: center;
+	border-radius: 5px;
+
+}
+
+footer {
+
+	width: 100%;//tina
+
+}
+#next {
+
+	background-color:$next-background-color;
+	width: 25%;
+	text-align: center;//tina
+	float: left;//tina
+}
