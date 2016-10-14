@@ -1,0 +1,62 @@
+//javascript comments work her
+//which should be helpful
+//build a basic style guide
+
+//variable
+//a variable in sass starts with a $
+//$variable-name: value;
+
+
+$base-font:16px;
+$header-font-size: 3rem; //300%
+$sub-header-font-size: 1.5rem; //150%
+$p-font: 1rem; //100%
+$em-header: 0.75rem;
+$sans-font: 'Arial', sans-serif;
+$tinabl: blue;
+$tina'sbr: brown;
+
+
+//build a basic style guide
+
+body {
+	font-size: $base-font;	
+}
+
+h1 {
+	font-size: $header-font-size;
+	font-family: $sans-font;
+	color: tinabl;
+}
+
+h2 {
+	font-size:$sub-header-font-size;
+	color: tinabr;
+
+
+}
+
+p {
+	font-size: $p-font;
+
+
+
+}
+h3 {
+	font-size: $em-header;
+
+
+}
+
+//naviagatio
+nav {
+	ul{
+		li {
+
+		}
+	}
+
+
+}
+
+
