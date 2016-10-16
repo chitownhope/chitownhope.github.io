@@ -55,7 +55,7 @@ $('#restart-game').click(function() {
 window.onload = function(){
   var timesUp = document.getElementById('timer'); 
 
-     var sec = 30;
+     var sec = 45;
      var timer = setInterval(function(){
        sec--;
        timesUp.innerHTML = "You've got " + sec + " seconds left!";
