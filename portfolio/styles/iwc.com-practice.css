@@ -1,0 +1,244 @@
+nav {
+	height: 3rem;
+	line-height: 3rem;
+	background-color: black;
+	color: white;
+	font-family: 'Asap', sans-serif;
+	/*display: inline;*/
+	/*text-decoration-color: white;*/
+	/*text-decoration: none;*/
+
+}
+
+ul {
+	display: inline;
+	/*vertical-align: center;*/
+}
+
+li {
+ padding-right: 3rem;
+}
+
+li,a{
+	color: lightgray;
+	text-decoration: none;
+	display: inline;
+	/*width:4rem;*/
+	text-align: center;
+}
+
+ul#first-nav{
+	/*width:4rem;*/
+	margin-left: 3rem;
+
+}
+
+ul#second-nav {
+	margin-left: 26rem;
+}
+
+.second-nav-a {
+	padding-right: .5rem;
+}
+
+#topsection {
+	background-color: lightgray;
+    text-align: center;
+    height: 80px;
+    line-height: 40px;
+        padding-top: 1rem;
+
+}
+
+#selftitle {
+	color: black;
+	display: inline;
+}
+
+span#lname {
+	font-family: 'Asap', sans-serif;
+	letter-spacing: 3.25px;
+}
+section#main-container {
+	width: 100%;
+    display: inline-flex;
+    background-color: lightgray;
+}
+
+section#left {
+	    height: 120rem;
+    background-color: lightgray;
+    border-top: solid darkgray;
+    width: 20%;
+        float: left;
+    border-right: white solid;
+}
+
+section#center-container {
+	background: url(images/etherealbackground.jpg) repeat center center;
+	 height: 15rem;
+    /*background-color: lightgray;*/
+    border: 0px;
+    width: 60%;
+    margin:0;
+	padding-top: 1rem;
+	font-family: 'Asap', sans-serif;
+}
+
+h1 {
+	text-align: center;
+    color: white;
+    font-size: 2.5rem;
+    font-family: 'Asap', sans-serif;
+    letter-spacing: 4.25px;
+    line-height: 1px;
+    text-shadow: 2px 2px 8px black;
+
+}
+
+section#right {
+   	height: 120rem;
+    background-color: lightgray;
+    border-top: solid darkgray;
+    width: 20%;
+    float: right;
+    border-left: solid white;
+
+}
+
+div#buttons {
+    text-align: center;
+    margin-top: -2rem;
+	padding-top: 2rem;
+
+}
+
+button {
+    background-color: rgb(43,29,14);
+    color: white;
+
+}
+
+#whitebanner1 {
+	background-color: lightgray;
+	/*padding-top: 1rem;*/
+	height: 7rem;
+	width: 71rem;
+	    border-top: solid lightgray 8px;
+    
+}
+
+#whitebannerlist {
+	display: inline;
+	background-color: white;
+	color:black;
+	padding-top: 1rem;
+    margin-top: 1rem;
+}
+
+hr	{
+	margin-bottom: 1rem;
+}
+ul#whitebannerlist {
+    border-top: solid white 4px;
+    border-bottom: solid white 16px;
+    display: block;
+}
+
+.whitebanneritems {
+	font-size: .75rem;
+	color: black;
+}
+
+li.whitebanneritems {
+	margin-right: 4rem;
+}
+
+section.thewatches {
+	width: 31%;
+    float: left;
+    text-align: center;
+    margin-left: 1rem;
+    letter-spacing: .25px;
+}
+
+h5 {
+	color:gray;
+}
+.thumbnailwatches {
+	height:235px; 
+	width:235px;
+}
+
+.under-watch-pic-content {
+	font-size:1.15rem;
+}
+
+.call-to-action{
+	color: gray;
+    font-size: 0.75rem;
+    margin-top: .8rem;
+}
+
+img#watch-pic-scroll {
+	height: 590px;
+    width: 1134px;
+	margin-top: 3rem;
+}
+
+section#iwc-more-company-details {
+    margin-top: -16rem;
+    text-align: center;
+    display: inline-flex;
+}
+ section.more-company-details-subsections {
+ 	margin-top: 13rem;
+    display: inline;
+    float: left;
+    	/*margin-left: 18.5px;*/
+    /*margin-right: 1.5px;*/
+   /* padding-right: 21.5px;*/
+ }
+
+.more-company-details-subsections1 {
+	width:31%;
+	height: 20rem;
+	display: inline-block;
+	text-align: center;
+	margin-top: 8rem;
+}
+
+.more-company-details-subsections2 {
+	width:31%;
+	height: 20rem;
+	/*display: inline-block;*/
+	text-align: center;
+}
+.more-company-details-subsections3 {
+	width:31%;
+	height: 20rem;
+	/*display: inline-block;*/
+	text-align: center;
+}
+
+
+.more-company-details-thumbnails{
+    height: 200px;
+    width: 323px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+p.more-company-det-paragraph {
+	/*font-size: 1rem;*/
+	/*float:left;*/
+	width: 84%;
+    text-align: center;
+    margin-left: 2rem;
+}
+
+
+
+
+
+
