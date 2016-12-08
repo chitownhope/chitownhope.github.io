@@ -51,15 +51,6 @@ nav {
     width: 100%;
 }
 
-/*#namesubheader{
-    /*font-size: 14px;*/
-    /*margin-top: 0px;*/
-    /*margin-bottom: 0px;*/
-    /*padding-top: 2px;*/
-    /*!*background: url(Old-Metal-Textured-Background.jpg);*!*/
-     /*!*background-color: rgba(50, 100, 127, .3);*!*/
-    /*font-family: 'Poiret One', cursive, sans-serif;*/
-/*}*/
 
 /*The circle pane flipping code
 ________________________________________________________________
@@ -326,6 +317,7 @@ section.working-on {
 
 section#ring-recreation {
     margin-bottom: 2rem;
+    text-align: center;
 
 } 
 
@@ -364,10 +356,12 @@ section#actual-site-image {
 
 div#actual-site-title {
     display: inline;
-    margin-left: 15rem;
+    margin-left: 29rem;
 }
 
-
+section#watch-actual-site {
+    margin-bottom: 2rem;
+}
 
 
 
@@ -509,45 +503,99 @@ div#actual-site-title {
     /*WHAT IM WORKING ON
     ____________________________________________________________*/
 
-    .working-on {
+   /* div.maincontent {
+    text-align: center;
+    height: 26rem;
+    margin-top: 2rem;
+    display: inline;
+    padding-left: .75rem;
+    }*/
+
+    .image-dimensions {
+        height: 260px;
+        width: 445px;
+    }
+
+    section.working-on {
+        margin-bottom: 1rem;
+        float: left;
+        display: inline;
         text-align: center;
         margin-top: 2rem;
         color:white;
         font-family: 'Poiret One', cursive, sans-serif;
     }
 
-    .siterecreation {
-        height: 240px;
-        width: 451px;
+    section#ring-recreation {
+        /*margin-left: -0.5rem;*/
+        margin-bottom: 2rem;
+        margin-top: 3rem;
+
+    } 
+
+    img#rings-image.image0dimensions {
+        height: 260px;
+    width: 445px;
+    margin-left: 1.5rem;
     }
 
-div#workingonmaincontent.maincontent {
+    #ring-title {
+        text-align: center;
+
+    }
+
+    section#watch-recreation {
+        text-align: center;
+        /*display: inline;*/
+       /* margin-left: 5rem;
+        margin-top: 5rem;
+        margin-bottom: 2rem;*/
+            /*margin-bottom: 1rem;
+    float: left;
     display: inline;
-}
-
-section#watch-recreation.working-on {
-    display: inline-flex;
-    margin-left: 5rem;
-    margin-top: 5rem;
-    margin-bottom: 2rem;
-}
-
-div#recreated-site-title {
-    margin-top: 22rem;
-    margin-left: -23rem;
-}
-
-
-img#actual-site-img.siterecreation {
-    margin-left: 20rem;
-}
-
-div#actual-site-title {
-    margin-top: 22rem;
-    margin-left: -23rem;
-}
-
+    text-align: center;
+    margin-top: 2rem;
+    color: white;
+    font-family: 'Poiret One', cursive, sans-serif;*/
     }
+
+  /*  #recreated-image {
+        float: left;
+        margin-right: 2rem;
+        margin-left: 1.5rem;
+
+    }*/
+
+    img#recreated-image.image-dimensions {
+           /* float: left;
+    margin-right: 2rem;*/
+    margin-left: 1.5rem;
+    }
+
+    div#recreated-site-title {
+            float: left;
+    margin-top: 16.5rem;
+    margin-left: -21rem;
+    }
+
+   /* section#actual-site-image {
+        display: inline;
+
+    }*/
+
+    img#actual-site-image.image-dimensions {
+        margin-top: 2rem;
+        height: 260px;
+        width: 445px;
+    }
+
+    div#actual-site-title {
+        display: inline;
+    margin-left: 1rem;
+    }
+
+
+}
 
 
 
