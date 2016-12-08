@@ -304,44 +304,74 @@ a.floating-button.right {
 
 /*WHAT I AM WORKING ON PAGE
 ________________________________________________________________________*/
-
-.working-on {
+div.maincontent {
     text-align: center;
+    height: 26rem;
+    margin-top: 2rem;
+    display: inline;
+    padding-left: .75rem;
+}
+
+.image-dimensions {
+    height: 340px;
+    width: 600px;
+}
+
+section.working-on {
+  /*  text-align: center;*/
     margin-top: 2rem;
     color:white;
     font-family: 'Poiret One', cursive, sans-serif;
 }
 
-div#workingonmaincontent.maincontent {
-    display: inline;
-}
-
-.siterecreation {
-    height: 340px;
-    width: 600px;
-}
-
-section#watch-recreation.working-on {
-    display: inline-flex;
-    margin-left: 5rem;
-    margin-top: 5rem;
+section#ring-recreation {
     margin-bottom: 2rem;
+
+} 
+
+#rings-image {
+
+}
+
+#ring-title {
+
+}
+
+section#watch-recreation {
+    display: inline;
+   /* margin-left: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;*/
+}
+
+#recreated-image {
+    float: left;
+    margin-right: 2rem;
+    margin-left: 6rem;
+
 }
 
 div#recreated-site-title {
+    float: left;
     margin-top: 22rem;
     margin-left: -23rem;
 }
 
+section#actual-site-image {
+    display: inline;
 
-img#actual-site-img.siterecreation {
-    margin-left: 20rem;
 }
 
 div#actual-site-title {
-    margin-top: 22rem;
-    margin-left: -23rem;
+    display: inline;
+    margin-left: 15rem;
 }
+
+
+
+
+
+
 /*MEDIA QUERY FOR PHONE*/
 /*______________________________________________________________________*/
 /*indexpage*/
@@ -364,7 +394,7 @@ div#actual-site-title {
 
     h1#nameheader {
         width: 48rem;
-        font-size: 5.75rem;
+        font-size: 5.6rem;
         padding-left: .75rem;
     }
 
@@ -407,91 +437,117 @@ div#actual-site-title {
 
 /*ABOUT ME PAGE*/
 
-div#aboutme-container {
-    background: rgba(255,255, 255, 0.2);
-    width: 80%;
-    display: inline-block;
-    border-radius: 15px;
-    margin-top: 3rem;
-    margin-bottom: -3rem;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-    padding-left: 1.25rem;
-    padding-right: 1.5rem;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
+    div#aboutme-container {
+        background: rgba(255,255, 255, 0.2);
+        width: 80%;
+        display: inline-block;
+        border-radius: 15px;
+        margin-top: 3rem;
+        margin-bottom: -3rem;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        padding-left: 1.25rem;
+        padding-right: 1.5rem;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+        }
+
+    p{
+        color: white;
+        width:158rem;
+        font-size: 1.5rem;
+        letter-spacing: .25rem;
+        /*margin-left: 5rem;*/
+       /* padding-top: 1rem;*/
+        /*margin-right: 0rem;*/
+        display: inline;  
+    }
+
+    div#slide-container {
+            display: inline;
+        width: 40rem;
+    }
+
+    .mySlides {
+        float: right;
+        border-radius: 40px;
+
+    }
+
+    img.mySlides {
+        width: 320px;
+        height: 427px;
+        /*display: block;
+       /* margin-left: 10rem;*/
+        margin-top: 2rem;
+        margin-right: 2.5rem;
+    }
+
+    a.floating-button.left {
+        height: 1rem;
+        margin-top: 0rem;
+        margin-left: -3rem;
+        font-size: 2rem;
+        float:left;
+
+    }
+
+    a.floating-button.right {
+        height: 1rem;
+        margin-top: -1.5rem;
+        margin-left: 10rem;
+        font-size: 2rem;
+        float: left;
+    }
+
+    #about-footer {
+        margin-top: 7rem;
+    }
+
+
+
+    /*WHAT IM WORKING ON
+    ____________________________________________________________*/
+
+    .working-on {
+        text-align: center;
+        margin-top: 2rem;
+        color:white;
+        font-family: 'Poiret One', cursive, sans-serif;
+    }
+
+    .siterecreation {
+        height: 240px;
+        width: 451px;
+    }
+
+div#workingonmaincontent.maincontent {
+    display: inline;
 }
 
-p{
-    color: white;
-    width:158rem;
-    font-size: 1.5rem;
-    letter-spacing: .25rem;
-    /*margin-left: 5rem;*/
-   /* padding-top: 1rem;*/
-    /*margin-right: 0rem;*/
-    display: inline;  
+section#watch-recreation.working-on {
+    display: inline-flex;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
 }
 
-div#slide-container {
-        display: inline;
-    width: 40rem;
-}
-
-.mySlides {
-    float: right;
-    border-radius: 40px;
-
-}
-
-img.mySlides {
-    width: 320px;
-    height: 427px;
-    /*display: block;
-   /* margin-left: 10rem;*/
-    margin-top: 2rem;
-    margin-right: 2.5rem;
-}
-
-a.floating-button.left {
-    height: 1rem;
-    margin-top: 0rem;
-    margin-left: -3rem;
-    font-size: 2rem;
-    float:left;
-
-}
-
-a.floating-button.right {
-    height: 1rem;
-    margin-top: -1.5rem;
-    margin-left: 10rem;
-    font-size: 2rem;
-    float: left;
-}
-
-#about-footer {
-    margin-top: 7rem;
+div#recreated-site-title {
+    margin-top: 22rem;
+    margin-left: -23rem;
 }
 
 
-
-/*WHAT IM WORKING ON
-____________________________________________________________*/
-
-.working-on {
-    text-align: center;
-    margin-top: 2rem;
-    color:white;
-    font-family: 'Poiret One', cursive, sans-serif;
+img#actual-site-img.siterecreation {
+    margin-left: 20rem;
 }
 
-.siterecreation {
-    height: 240px;
-    width: 451px;
+div#actual-site-title {
+    margin-top: 22rem;
+    margin-left: -23rem;
 }
 
-}
+    }
 
 
 
