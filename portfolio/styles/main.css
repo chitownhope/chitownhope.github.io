@@ -112,7 +112,7 @@ div#index-maincontent {
     height:26rem;
     margin-top: 2rem;
     /*position:fixed;nope messed up footer*/
-    display: inline-flex;
+    /*display: inline-flex;*/
     padding-left: .75rem;
 }
 
