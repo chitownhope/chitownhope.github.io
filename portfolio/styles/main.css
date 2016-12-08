@@ -108,7 +108,7 @@ ________________________________________________________________
 /*__________________________________________________*/
 
 
-div.maincontent {
+div#index-maincontent {
     height:26rem;
     margin-top: 2rem;
     /*position:fixed;nope messed up footer*/
