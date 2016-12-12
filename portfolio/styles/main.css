@@ -369,7 +369,9 @@ section#watch-actual-site {
 /*MEDIA QUERY FOR PHONE*/
 /*______________________________________________________________________*/
 /*indexpage*/
-@media (max-width: 480px) { 
+/*@media (max-width: 480px) { */
+
+@media only screen and (max-width: 480px) { 
 
     html {
     width: 100%;
@@ -387,13 +389,15 @@ section#watch-actual-site {
     }
 
     h1#nameheader {
+        height: 5rem;
         width: 48rem;
-        font-size: 5.6rem;
+        font-size: 4rem;
         padding-left: .75rem;
+        padding-bottom: 0rem;
     }
 
     nav {
-        width: 29.8rem;
+        width: 24.8rem;
     }
 
     a {
@@ -410,12 +414,12 @@ section#watch-actual-site {
         margin-right: 1rem;
     }
 
-    div.maincontent {
+    div#index-maincontent {
         display: inline;
     }
 
     div.flip-container {
-    padding-left: 4rem;
+        padding-left: 0.75rem;
     }
 
      footer {
@@ -425,7 +429,7 @@ section#watch-actual-site {
 
      span {
         float: left;
-        margin-left: 9rem;
+        margin-left: 3rem;
      }
 
 
@@ -474,13 +478,13 @@ section#watch-actual-site {
         /*display: block;
        /* margin-left: 10rem;*/
         margin-top: 2rem;
-        margin-right: 2.5rem;
+        margin-right: -1rem;
     }
 
     a.floating-button.left {
         height: 1rem;
         margin-top: 0rem;
-        margin-left: -3rem;
+        margin-left: -5rem;
         font-size: 2rem;
         float:left;
 
@@ -512,8 +516,8 @@ section#watch-actual-site {
     }*/
 
     .image-dimensions {
-        height: 260px;
-        width: 445px;
+        height: 190px;
+        width: 340px;
     }
 
     section.working-on {
@@ -530,7 +534,7 @@ section#watch-actual-site {
         /*margin-left: -0.5rem;*/
         margin-bottom: 2rem;
         margin-top: 3rem;
-
+        margin-left: -.5rem;
     } 
 
     img#rings-image.image0dimensions {
@@ -569,13 +573,13 @@ section#watch-actual-site {
     img#recreated-image.image-dimensions {
            /* float: left;
     margin-right: 2rem;*/
-    margin-left: 1.5rem;
+    margin-left: 1.25rem;
     }
 
     div#recreated-site-title {
-            float: left;
-    margin-top: 16.5rem;
-    margin-left: -21rem;
+        float: left;
+        margin-top: 12.5rem;
+        margin-left: -17rem;
     }
 
    /* section#actual-site-image {
@@ -585,8 +589,9 @@ section#watch-actual-site {
 
     img#actual-site-image.image-dimensions {
         margin-top: 2rem;
-        height: 260px;
-        width: 445px;
+        height: 190px;
+        width: 340px;
+        margin-left: -.5rem;
     }
 
     div#actual-site-title {
