@@ -1,0 +1,58 @@
+nav {
+	text-align: center;
+}
+#navlist{
+	width: 100%;
+	display: inline;
+	padding-left: 2rem;
+	float: left;
+	background-color: darkblue;
+	color:white;
+	text-decoration: none;
+	list-style-type: none;
+	/*text-align: center;*/
+}
+h2 {
+	width: 100%;
+}
+
+.main-body {
+	display: inline;
+	float:left;
+}
+
+#row1{
+	display: inline;
+	float: left;
+}
+
+img#books {
+	/*float:left;*/
+	height: 350px;
+	width: 350px;
+	    display: inline;
+    float: left; 
+}
+
+/*#row1p{
+display: inline;
+}*/
+
+/*p {
+	clear: left;
+}*/
+/*section {
+	margin-left: 1rem;
+}*/
+
+div.two-thirds.column.main-body {
+	margin-right: 2rem;
+}
+footer {
+	background-color: lightgray;
+	    clear: both;
+	    text-align: center;
+}
+/*@media only screen and (max-width : 480px)*/
+
+
