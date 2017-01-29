@@ -26,34 +26,8 @@ position: relative;
 }
 
 
-
-
-
-
-
-	
-/*}*/
-/*div#name-bar{
-	font-family: syncopate, sans-serif;
-	font-size: 6rem;
-	color:white;
-	background-color: black;
-	height:13rem;
-	padding-top: 1rem;
-	position: fixed;
-	/*text-align: center;*/
-	/*letter-spacing: 18px;
-}*/
-
-/*div#themain.row {
-	height: 31rem;
-	position: relative;
-}*/
-
 #mainsection {
 	height:31rem;
-	/*background-color: orange;*/
-	
 	background-color: 
 	background: #bdc3c7; /* fallback for old browsers */
 	background: -webkit-linear-gradient(to left, #bdc3c7 , #2c3e50); /* Chrome 10-25, Safari 5.1-6 */
@@ -70,13 +44,10 @@ position: relative;
 MAINSUBSECTION-bigger projects
 *********************************************************************************************/
 
-div#box1.small-block-grid-12.medium-block-grid-6.large-6.columns,
-div#box2.small-block-grid-12.medium-block-grid-6.large-6.columns,
-div#box3.small-block-grid-12.medium-block-grid-6.large-6.columns,
-div#box4.small-block-grid-12.medium-block-grid-6.large-6 {
-/*div#box5.small-6.medium-6.large-6.columns,
-div#box6.small-6.medium-6.large-6.columns */
-    /*background-color: white;*/
+div#box1.column,
+div#box2.column,
+div#box3.column,
+div#box4.column {
     border: solid 10px;
     max-width: 100%;
     height: auto;
@@ -89,52 +60,33 @@ p{
 }
 
 
-
-
-
 /*
 PROJECTS
 ***********************************************************************************************/
-/*ul {
-	list-style: none;
+img#img-thumbnail-1.thumbnail {
+border-radius: 20px;
 }
 
-div#projects1.large-2.medium-2.small-2.columns   {
-	height: 39rem;
-	background-color: red;
-	list-style: none;
-
+img#img-thumbnail-2.thumbnail {
+	border-radius: 20px;
 }
-div#projects2.large-2.medium-2.small-2.columns   {
-	height: 39rem;
-	background-color: green;
-	list-style: none;
+img#img-thumbnail-3.thumbnail {
+	border-radius: 20px;
 }
-div#projects3.large-2.medium-2.small-2.columns   {
-	height: 39rem;
-	background-color: yellow;
-	list-style: none;
+img#img-thumbnail-4.thumbnail {
+	border-radius: 20px;
 }
-div#projects4.large-2.medium-2.small-2.columns   {
-	height: 39rem;
-	background-color: purple;
-	list-style: none;
+img#img-thumbnail-5.thumbnail {
+	border-radius: 20px;
 }
-div#projects5.large-2.medium-2.small-2.columns   {
-	height: 39rem;
-	background-color: orange;
-	list-style: none;
+img#img-thumbnail-6.thumbnail {
+	border-radius: 20px;
 }
-div#projects6.large-2.medium-2.small-2.columns      {
-	height: 39rem;
-	background-color: blue;
-	list-style: none;
-}*/
 
 /*QUOTES
 ***********************************************************************************************/
 div#quotes.large-12.medium-12.small-12.columns {
-	padding-top: 7rem;
+	padding-top: 6rem;
 	height: 14rem;
 	background-color: gray;
 	color:white;
@@ -226,7 +178,7 @@ div.footer-row {
 }
 
 div.box.background-arrows {
-	transform: translateY(31%) rotate(225deg);
+	transform: translateY(21%) rotate(225deg);
     margin: 0 auto;
     width: 60px;
     height: 60px;
@@ -289,33 +241,48 @@ div#box6.small-6.medium-6.large-6.columns */{
 
 
 /*
-PROJECTS
+PROJECTS--smaller--thumbnails
 ***********************************************************************************************/
-div#projects1.large-2.medium-2.small-2.columns   {
-	height: 39rem;
-	background-color: red;
 
 
+/*QUOTES
+***********************************************************************************************/
+div#quotes.large-12.medium-12.small-12.columns {
+	font-size: 1.6rem;
+	padding-top: 4rem;
+	height: 14rem;
 }
-div#projects2.large-2.medium-2.small-2.columns   {
-	height: 39rem;
-	background-color: green;
+
+
+/*
+FOOTER
+***********************************************************************************************/
+footer {
+	height: 20rem;
+	background-color: black;
 }
-div#projects3.large-2.medium-2.small-2.columns   {
-	height: 39rem;
-	background-color: yellow;
+
+
+
+
+
+/****************************************************************
+                         MEDIA QUERIES
+****************************************************************/
+                     /***Medium Devices***/
+@media (min-width: 481px) { 
+#devtitle{
+	font-size: 3.25rem;
+	height:11.5rem;
+	padding-top: 4rem;
+	/*position: fixed;
+	text-align: center;*/
 }
-div#projects4.large-2.medium-2.small-2.columns   {
-	height: 39rem;
-	background-color: purple;
-}
-div#projects5.large-2.medium-2.small-2.columns   {
-	height: 39rem;
-	background-color: orange;
-}
-div#projects6.large-2.medium-2.small-2.columns      {
-	height: 39rem;
-	background-color: blue;
+
+#mainsection {
+	height:32rem;
+	/*padding-top: 8rem;*/
+	font-size:2.75rem;
 }
 
 /*QUOTES
@@ -334,5 +301,74 @@ footer {
 	height: 20rem;
 	background-color: black;
 }
- 
+
 }
+
+
+/*@media (min-width: 640px) {
+	div#quotes.large-12.medium-12.small-12.columns {
+	font-size: 1.6rem;
+	padding-top: 5rem;
+	height: 14rem;
+}*/
+
+
+/****************************************************************
+                         MEDIA QUERIES
+****************************************************************/
+                     /***Medium Devices***/
+
+
+@media (min-width: 1024px) { 
+#devtitle{
+	font-size: 5.25rem;
+	height:11.5rem;
+	padding-top: 4rem;
+	/*position: fixed;
+	text-align: center;*/
+}
+
+#mainsection {
+	height:32rem;
+	/*padding-top: 8rem;*/
+	font-size:2.75rem;
+}
+
+div.box.background-arrows {
+    transform: translateY(-59%) rotate(225deg);
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+    background-color: black;
+}
+
+/*QUOTES
+***********************************************************************************************/
+div#quotes.large-12.medium-12.small-12.columns {
+	font-size: 1.6rem;
+	padding-top: 5rem;
+	height: 14rem;
+}
+
+
+/*
+FOOTER
+***********************************************************************************************/
+footer {
+	height: 20rem;
+	background-color: black;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
