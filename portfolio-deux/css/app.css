@@ -85,14 +85,15 @@ div#box1.columns,
 div#box2.columns,
 div#box3.columns, 
 div#box4.columns{
-	border-right: solid 10px;
+	border-bottom: solid 10px;
 }*/
 
-.row.small-up-1.medium-up-2.large-up-2{
+/*.row.small-up-1.medium-up-2.large-up-2{
+	border-top: solid 10px;
     border-bottom: solid 10px;
     max-width: 100%;
     height: auto;
-}
+}*/
 
 p{
 	text-align: center;
@@ -102,13 +103,20 @@ p{
 
 
 /*
-PROJECTS
+PROJECTS--smaller projects
 ***********************************************************************************************/
 #skills {
-	overflow: auto;
+	/*overflow: auto;*/
 	background-color: black;
 	font-size: 5rem;
 	color:white;
+	height: 10rem;
+}
+
+.row.small-up-1.medium-up-2.large-up-3 {
+height: 10rem;
+width: 10rem;
+border-color: yellow;
 }
 
 /*img#img-thumbnail-1.thumbnail {
@@ -230,9 +238,19 @@ div.box2.background-arrows2 {
     background-color: black;
 }
 
-img#codepen-socialmedia {
+a#linkedin, a#twitter, a#fb {
+	display: inline;
+	float:right;
+	margin-right: 1rem;
+	padding-top: 13rem;
+}
+/*img#codepen-socialmedia {
 	margin-top:24rem;
 }
+
+div.row.large-12.medium-12.small-12.columns.icons {
+	float:right;
+}*/
 
 /****************************************************************
                          MEDIA QUERIES
@@ -330,9 +348,16 @@ footer {
 	height: 20rem;
 	background-color: black;
 }
+a#linkedin, a#twitter, a#fb {
+	display: inline;
+	float:right;
+	margin-right: 1rem;
+	padding-top: 13rem;
+	
+}
 
 
-
+}
 
 
 /****************************************************************
@@ -415,7 +440,7 @@ div.box.background-arrows {
 ***********************************************************************************************/
 div#quotes.large-12.medium-12.small-12.columns {
 	font-size: 1.6rem;
-	padding-top: 5rem;
+	padding-top: 6rem;
 	height: 14rem;
 }
 
@@ -427,6 +452,8 @@ footer {
 	height: 20rem;
 	background-color: black;
 }
+
+
 
 
 }
