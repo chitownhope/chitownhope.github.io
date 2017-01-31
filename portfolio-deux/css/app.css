@@ -2,6 +2,22 @@
 /*div#top.row.fixed {
 	position: relative;
 }*/
+body {
+	/* background-image: url("orbsbackgrounds.jpg") ;  *//*ddnt look good*/
+	background: url("chicagoscene.jpg") no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        /*-o-background-size: cover;*/
+         /*didnt look good--blurry*/
+  /*-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;*/
+  /*background-size: cover;*/
+/*  background-size: 100% 100%;
+    background-repeat: no-repeat;*/
+}
 
 #devtitle{
 	font-family: syncopate, sans-serif;
@@ -12,55 +28,58 @@
 	padding-top: 1rem;
 	/*position: fixed;*/
 	text-align: center;
-/*top:102px;*/
 
-	/*position: absolute;*/
-  /*top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);*/ /*didnt work..lost dev-title*/
-/*
-position: relative;
-  top: 50%;
-  transform: translateY(0%);*/
-	/*opacity: 0;
-    animation: fade-in 800ms ease-in-out 1000ms forwards;*/
 }
 
  div#mainsection.large-12.large-centered.medium-12.medium-centered.small-12.small-centered.columns {
-	background-color: 
-  background: #bdc3c7; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #bdc3c7 , #2c3e50);  /*Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #bdc3c7 , #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-      "
+	/*background-color: 
+  background: #bdc3c7;*/  /*fallback for old browsers *//*
+  background: -webkit-linear-gradient(to left, #bdc3c7 , #2c3e50); */ /*Chrome 10-25, Safari 5.1-6 */
+ /*s*/ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   /*background-image: url("orbsbackgrounds.jpg");*/   /*nope...doesnt look good*/
+/*width:100%;
+position: relative;*//*for putting on bottom of element*/
+line-height: 200px;
+height: 558px;
+text-align: center;
 }
 
 
 /* The typing effect */
-p#titler {
+div#titler {
 	/*background-color: 
 	background: #bdc3c7; /* fallback for old browsers *//*
 	background: -webkit-linear-gradient(to left, #bdc3c7 , #2c3e50);  Chrome 10-25, Safari 5.1-6 
 	background: linear-gradient(to left, #bdc3c7 , #2c3e50);*/ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ 
       */
- overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  animation: 
+   /* position: absolute;bottom: 0px;width: 100%;*//*for putting on bottom of element along with parent element*/
+   line-height: 7.5;
+   display: inline-block;
+   vertical-align: text-top;
+   width: 70%;
+
+   background-color: rgba(255,255,255,.5);
+
+
+ 	overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
     typing 4.2s steps(40, end),
     blink-caret .75s step-end infinite;	
 }
 
 @keyframes typing {
   from { width: 0 }
-  to { width: 100% }
+  to { width: 70% }
 }
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: none; }
+  50% { border-color: none; } /*removed visible cursor*/
 }
 
 #mainsection p{
@@ -113,10 +132,17 @@ PROJECTS--smaller projects
 	height: 10rem;
 }
 
-.row.small-up-1.medium-up-2.large-up-3 {
+/*.row.small-up-1.medium-up-2.large-up-3.column {
 height: 10rem;
 width: 10rem;
 border-color: yellow;
+}*/
+
+.small-centered.small-6.large-centered.columns {
+	height: 15rem;
+	width: 15rem;
+	background-color: yellow;
+	border: solid 4px;
 }
 
 /*img#img-thumbnail-1.thumbnail {
@@ -154,12 +180,29 @@ div#quotes.large-12.medium-12.small-12.columns {
 /*
 FOOTER
 ***********************************************************************************************/
-footer {
+#footer.row {
 	height: 20rem;
 	background-color: black;
 }
-div.footer-row {
+/*div.footer-row {
 	    margin-top: -3rem;
+}*/
+div.row.large-12.medium-12.small-12.columns{ 
+	position: relative;
+	width: 100%;
+}
+
+/*a#email, a#linkedin, a#twitter, a#fb {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}*/
+div#socmedlinks {
+	/* position: absolute;*/
+   /* bottom: 0px;*/
+  /* bottom:-285px;
+    width: 100%;
+    letter-spacing: 976px;*/
 }
 
 
@@ -231,19 +274,19 @@ div.box.background-arrows {
     background-color: black;
 }
 div.box2.background-arrows2 {
-	transform: translateY(31%) rotate(405deg);
+	transform: translateY(-41%) rotate(405deg);
     margin: 0 auto;
     width: 60px;
     height: 60px;
     background-color: black;
 }
 
-a#linkedin, a#twitter, a#fb {
+/*a#linkedin, a#twitter, a#fb {
 	display: inline;
 	float:right;
 	margin-right: 1rem;
 	padding-top: 13rem;
-}
+}*/
 /*img#codepen-socialmedia {
 	margin-top:24rem;
 }
@@ -251,6 +294,17 @@ a#linkedin, a#twitter, a#fb {
 div.row.large-12.medium-12.small-12.columns.icons {
 	float:right;
 }*/
+
+/*#email {
+	color:white; 
+	font-size:2rem;
+	display: inline;
+	float:right;
+}*/
+
+span#ellipses {
+	font-size:10rem;
+}
 
 /****************************************************************
                          MEDIA QUERIES
@@ -297,7 +351,7 @@ p#titler {
 
 @keyframes typing {
   from { width: 0 }
-  to { width: 100% }
+  to { width: 70% }
 }
 
 /* The typewriter cursor effect */
@@ -357,8 +411,9 @@ a#linkedin, a#twitter, a#fb {
 }
 
 
+span#ellipses {
 }
-
+}
 
 /****************************************************************
                          MEDIA QUERIES
