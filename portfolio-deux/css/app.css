@@ -164,31 +164,15 @@ FOOTER
 	height: 20rem;
 	background-color: black;
 }
-/*div.footer-row {
-	    margin-top: -3rem;
-}*/
+
 div.row.large-12.medium-12.small-12.columns{ 
 	position: relative;
 	width: 100%;
 }
 
-/*a#email, a#linkedin, a#twitter, a#fb {
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-}*/
-div#socmedlinks {
-	/* position: absolute;*/
-   /* bottom: 0px;*/
-  /* bottom:-285px;
-    width: 100%;
-    letter-spacing: 976px;*/
-}
-
-
 .background-arrows2 {
     background-color: black;
-}*/
+}
 
 
 .arrow-trigger, .arrow-trigger2{
@@ -199,7 +183,6 @@ div#socmedlinks {
     height: 40px;
     cursor: pointer;
 }
-
 
 .arrow {
     position: absolute;
@@ -244,30 +227,11 @@ div.box2.background-arrows2 {
     background-color: black;
 }
 
-/*a#linkedin, a#twitter, a#fb {
-	display: inline;
-	float:right;
-	margin-right: 1rem;
-	padding-top: 13rem;
-}*/
-/*img#codepen-socialmedia {
-	margin-top:24rem;
+div#socmedlinks.large-12.medium-12.small-12.columns {
+	padding-top: 11rem;
 }
 
-div.row.large-12.medium-12.small-12.columns.icons {
-	float:right;
-}*/
 
-/*#email {
-	color:white; 
-	font-size:2rem;
-	display: inline;
-	float:right;
-}*/
-
-span#ellipses {
-	font-size:10rem;
-}
 
 /****************************************************************
                          MEDIA QUERIES
