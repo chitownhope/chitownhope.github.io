@@ -81,6 +81,15 @@ div#projects.row.small-10.center.large-collapse, div.row.small-10.center.large-c
 	margin-bottom: 1rem;
 }
 
+div.small-6.columns.largerprojects-p {
+	padding-top: 5rem;
+	text-decoration:none;
+	/*color:red;*/
+	text-align: center;
+	/*display: flex;
+	justify-content: center;
+	align-items: center;*/
+}
 /*PROJECTS--smaller projects
 ***********************************************************************************************/
 p#skills {
