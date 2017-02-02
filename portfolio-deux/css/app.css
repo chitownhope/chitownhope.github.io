@@ -10,13 +10,13 @@ body {
 
 #devtitle{
 	font-family: syncopate, sans-serif;
-	font-size: 6rem;
+	/*font-size: 6rem;*/
 	color:white;
 	background-color: black;
-	height:13rem;
-	padding-top: 1rem;
+	height:12rem;
+	/*padding-top: 1rem;*/
 	/*position: fixed;*/
-	text-align: center;
+	/*text-align: center;*/
 
 }
 
@@ -115,12 +115,6 @@ div#smallerprojects-row2.row.small-8.center {
 }
 
 
-/*.row.small-up-1.medium-up-2.large-up-3.column {
-height: 10rem;
-width: 10rem;
-border-color: yellow;
-}*/
-
 /*.small-centered.small-6.large-centered.columns {
 	height: 15rem;
 	width: 15rem;
@@ -152,7 +146,7 @@ img#img-thumbnail-6.thumbnail {
 ***********************************************************************************************/
 div#quotes.large-12.medium-12.small-12.columns {
 	/*padding-top: 6rem;*/
-	height: 14rem;
+	height: 15rem;
 	background-color: gray;
 	color:white;
 	/*text-align: center;*/
@@ -284,7 +278,7 @@ span#ellipses {
 
 #devtitle{
 	font-size: 2.75rem;
-	height:11.5rem;
+	/*height:11.5rem;*/
 	padding-top: 4rem;
 	position: fixed;
 	text-align: center;
@@ -345,7 +339,7 @@ PROJECTS--smaller--thumbnails
 ***********************************************************************************************/
 div#quotes.large-12.medium-12.small-12.columns {
 	font-size: 1.6rem;
-	padding-top: 4rem;
+	/*padding-top: 4rem;*/
 	height: 14rem;
 }
 
@@ -434,7 +428,7 @@ FOOTER
 @media (min-width: 1024px) { 
 #devtitle{
 	font-size: 5.25rem;
-	height:11.5rem;
+	/*height:11.5rem;*/
 	padding-top: 4rem;
 	/*position: fixed;
 	text-align: center;*/
@@ -458,7 +452,7 @@ div.box.background-arrows {
 ***********************************************************************************************/
 div#quotes.large-12.medium-12.small-12.columns {
 	font-size: 1.6rem;
-	padding-top: 6rem;
+	/*padding-top: 6rem;*/
 	height: 14rem;
 }
 
