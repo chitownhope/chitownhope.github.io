@@ -39,9 +39,7 @@ div#titler {
    	display: inline-block;
    	vertical-align: text-top;
    	width: 70%;
-
     background-color: rgba(255,255,255,.5);
-
 
 	overflow: hidden; /* Ensures the content is not revealed until the animation */
 	border-right: .15em; /* The typwriter cursor */
@@ -77,8 +75,9 @@ div#titler {
 PROJECTS--larger projects
 *********************************************************************************************/
 div#projects.row.small-10.center.large-collapse, div.row.small-10.center.large-collapse  {
-	background-color: white;
+	color: white;
 	margin-bottom: 1rem;
+	background-color: rgba(0,42,64,.7);
 }
 
 div.small-6.columns.largerprojects-p {
@@ -89,16 +88,18 @@ div.small-6.columns.largerprojects-p {
 	/*display: flex;
 	justify-content: center;
 	align-items: center;*/
+
 }
 /*PROJECTS--smaller projects
 ***********************************************************************************************/
 p#skills {
 	/*overflow: auto;*/
-	margin:0px;
+	margin-bottom:1rem;
 	height: 9rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
 }
 
 div.small-6.center.columns.tiles {
@@ -124,32 +125,6 @@ div#smallerprojects-row2.row.small-8.center {
 }
 
 
-/*.small-centered.small-6.large-centered.columns {
-	height: 15rem;
-	width: 15rem;
-	background-color: yellow;
-	border: solid 4px;
-}*/
-
-/*img#img-thumbnail-1.thumbnail {
-border-radius: 20px;
-}
-
-img#img-thumbnail-2.thumbnail {
-	border-radius: 20px;
-}
-img#img-thumbnail-3.thumbnail {
-	border-radius: 20px;
-}
-img#img-thumbnail-4.thumbnail {
-	border-radius: 20px;
-}
-img#img-thumbnail-5.thumbnail {
-	border-radius: 20px;
-}
-img#img-thumbnail-6.thumbnail {
-	border-radius: 20px;
-}*/
 
 /*QUOTES
 ***********************************************************************************************/
