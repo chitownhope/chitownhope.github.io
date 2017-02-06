@@ -324,7 +324,7 @@ footer {
 	height: 20rem;
 	background-color: black;
 }
-a#linkedin, a#twitter, a#fb {
+a#linkedin, a#twitter, a#fb, a#codepen {
 	display: inline;
 	float:right;
 	margin-right: 1rem;
