@@ -281,7 +281,14 @@ p#titler {
 MAINSUBSECTION-bigger projects
 *********************************************************************************************/
 
-
+div.small-6.columns.largerprojects-images {
+	width: 100%;
+}
+div.small-6.columns.largerprojects-p {
+	width: 100%;
+	padding-bottom: .5rem;
+	padding-top: 0;
+}
 
 
 
