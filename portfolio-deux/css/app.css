@@ -223,10 +223,14 @@ div#socmedlinks.large-12.medium-12.small-12.columns {
 
 #devtitle{
 	font-size: 2.75rem;
-	height:11rem;
+	height:12rem;
 	padding-top: 4rem;
 	position: fixed;
 	text-align: center;
+}
+
+div.box.background-arrows {
+	transform: translateY(42%) rotate(225deg);
 }
 
 #mainsection {
