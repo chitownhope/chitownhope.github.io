@@ -68,7 +68,6 @@ div#titler {
 	font-size: 3rem;
 	text-align: center;
 	clear:both;
-
 }
 
 /*
@@ -88,10 +87,6 @@ div.small-6.columns.largerprojects-p {
 /*PROJECTS--smaller projects
 ***********************************************************************************************/
 p#skills {
-	/*border-bottom:white double 1rem;
-	margin-bottom: 1rem;
-	
-	padding-bottom: 0px;*/
 	height: 9rem;
 	display: flex;
 	justify-content: center;
@@ -99,9 +94,12 @@ p#skills {
 	color:white;
 	background-color: black;
 	font-size: 2rem;
+	letter-spacing: 5px;
+/*font-family: syncopate, sans-serif;*/
 }
 
 div.small-6.center.columns.tiles.button{
+	font-family: syncopate, sans-serif;
 	background-color: white;
 	height: 10rem;
 	width: 10rem;
@@ -109,22 +107,19 @@ div.small-6.center.columns.tiles.button{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	/*text-align: center;*/
-
-	/*
-    background-color: #4CAF50;*/
+	
     cursor: pointer;
 	outline: none;
 	color:black;
 	border: none;
-	box-shadow: 0 9px #999;
+	box-shadow: 9px 9px 0 0 #999;
 }
 
-div.small-6.center.columns.tiles.button:hover {background-color: #EDEDE7}
+div.small-6.center.columns.tiles.button:hover {background-color: #D6D6D0}
 div.small-6.center.columns.tiles.button:active {
-	background: #EDEDE7;
-	box-shadow: 0 5px #4F4F4D;
-	transform: translateY(4px);
+	background: #D6D6D0;
+	box-shadow: 5px 5px 0 0 #4F4F4D;
+	transform: translateY(10px) ;
 }
 
 div.tiles-content{
