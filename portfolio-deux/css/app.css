@@ -10,7 +10,7 @@ body {
 
 #devtitle{
 	font-family: syncopate, sans-serif;
-	/*font-size: 6rem;*/
+	font-size: 6rem;
 	color:white;
 	background-color: black;
 	height:12rem;
@@ -245,14 +245,14 @@ div#socmedlinks.large-12.medium-12.small-12.columns {
 
 #devtitle{
 	font-size: 2.75rem;
-	height:12rem;
+	height:13rem;
 	padding-top: 4rem;
 	position: fixed;
 	text-align: center;
 }
 
 div.box.background-arrows {
-	transform: translateY(42%) rotate(225deg);
+	transform: translateY(69%) rotate(225deg);
 }
 
 #mainsection {
@@ -385,59 +385,128 @@ div#socmedlinks.large-12.medium-12.small-12.columns {
 
 }
 
+
+
+
 /****************************************************************
                          MEDIA QUERIES
 ****************************************************************/
                      /***Medium Devices***/
-/*@media (min-width: 768px) { 
+@media only screen and (min-width: 481px) and (max-width: 1024px) { 
 #devtitle{
-	font-size: 3.25rem;
-	height:11.5rem;
-	padding-top: 4rem;*/
-	/*position: fixed;
-	text-align: center;*/
-/*}
+	font-size: 3rem;
+	height:14rem;
+	padding-top: 4rem;
+	position: fixed;
+	text-align: center;
+}
+
+div.box.background-arrows {
+	transform: translateY(84%) rotate(225deg);
+}
 
 #mainsection {
-	height:32rem;*/
-	/*padding-top: 8rem;*/
-	/*font-size:1.25rem;
+	font-size:1.6rem;
 }
 
-div.small-6.columns.largerprojects-images {
+div#titler {
+    line-height: 6.5;
+    display: inline-block;
+    vertical-align: text-top;
+    width: 85%;
+    background-color: rgba(255,255,255,.5);
+    overflow: hidden;
+    border-right: .15em;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: typing 4.2s steps(40, end), blink-caret .75s step-end infinite;
+    }
 
+p#titler {
+ overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0em; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0em; /* Adjust as needed */
+  animation: 
+    typing 2.2s steps(40, end),
+    blink-caret .75s step-end infinite;	
+    font-size: 2rem;
 }
 
-div.small-6.columns.largerprojects-p {
-
-}*/
-
-/*QUOTES
-***********************************************************************************************/
-/*div#quotes.large-12.medium-12.small-12.columns {
-	font-size: 1.6rem;
-	padding-top: 4rem;
-	height: 14rem;
-}*/
+@keyframes typing {
+  from { width: 0 }
+  to { width: 85% }
+}
 
 
 /*
-FOOTER
-***********************************************************************************************/
-/*footer {
-	height: 20rem;
-	background-color: black;
+MAINSUBSECTION-bigger projects
+*********************************************************************************************/
+
+div.small-6.columns.largerprojects-images {
+	width: 100%;
+}
+div.small-6.columns.largerprojects-p {
+	width: 100%;
+	padding-bottom: .5rem;
+	padding-top: 0;
 }
 
-}*/
 
 
-/*@media (min-width: 640px) {
-	div#quotes.large-12.medium-12.small-12.columns {
+/*
+PROJECTS--smaller
+***********************************************************************************************/
+p#skills {
+	overflow: auto;
+	background-color: black;
+	font-size: 1.5rem;
+	color:white;
+	text-align: center;
+}
+
+div.small-6.center.columns.tiles.button {
+	height: 5rem;
+	margin-right: 1rem;
+	font-size: .75rem;
+	display: flex;
+    justify-content: center;
+    width: 6rem;
+}
+
+div#smallerprojects-row1.row.small-8.center {
+	margin-top: 1rem;
+	/*margin-bottom: 1rem;*/
+	width: 90%;
+	display: flex;
+	/*justify-content: space-between;*/
+	align-items: center; 
+}		
+
+div#smallerprojects-row2.row.small-8.center {
+	/*margin-bottom: 1rem;*/
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+}
+
+/*QUOTES
+***********************************************************************************************/
+div#quotes.large-12.medium-12.small-12.columns {
 	font-size: 1.6rem;
-	padding-top: 5rem;
+	/*padding-top: 4rem;*/
 	height: 14rem;
-}*/
+	text-align: center;
+}
+
+}
+
+
+
+
+
 
 
 /****************************************************************
@@ -449,20 +518,20 @@ FOOTER
 @media (min-width: 1024px) { 
 #devtitle{
 	font-size: 5.25rem;
-	/*height:11.5rem;*/
-	padding-top: 4rem;
-	/*position: fixed;
-	text-align: center;*/
+	height:13.5rem;
+	padding-top: 2rem;
+	position: fixed;
+	text-align: center;
 }
 
 #mainsection {
 	height:32rem;
-	/*padding-top: 8rem;*/
+	padding-top: 6rem;
 	font-size:2.75rem;
 }
 
 div.box.background-arrows {
-    transform: translateY(-59%) rotate(225deg);
+    transform: translateY(47%) rotate(225deg);
     margin: 0 auto;
     width: 60px;
     height: 60px;
@@ -474,24 +543,11 @@ div.box.background-arrows {
 div#quotes.large-12.medium-12.small-12.columns {
 	font-size: 1.6rem;
 	/*padding-top: 6rem;*/
-	height: 14rem;
+	height: 15rem;
+	text-align: center;
 }
 
-
-/*
-FOOTER
-***********************************************************************************************/
-footer {
-	height: 20rem;
-	background-color: black;
 }
-
-
-
-
-}
-
-
 
 
 
