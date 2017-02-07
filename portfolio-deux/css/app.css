@@ -88,7 +88,10 @@ div.small-6.columns.largerprojects-p {
 /*PROJECTS--smaller projects
 ***********************************************************************************************/
 p#skills {
-	margin-bottom:1rem;
+	/*border-bottom:white double 1rem;
+	margin-bottom: 1rem;
+	
+	padding-bottom: 0px;*/
 	height: 9rem;
 	display: flex;
 	justify-content: center;
@@ -98,7 +101,7 @@ p#skills {
 	font-size: 2rem;
 }
 
-div.small-6.center.columns.tiles {
+div.small-6.center.columns.tiles.button{
 	background-color: white;
 	height: 10rem;
 	width: 10rem;
@@ -106,15 +109,36 @@ div.small-6.center.columns.tiles {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	text-align: center;
+	/*text-align: center;*/
 
+	/*
+    background-color: #4CAF50;*/
+    cursor: pointer;
+	outline: none;
+	color:black;
+	border: none;
+	box-shadow: 0 9px #999;
 }
+
+div.small-6.center.columns.tiles.button:hover {background-color: #EDEDE7}
+div.small-6.center.columns.tiles.button:active {
+	background: #EDEDE7;
+	box-shadow: 0 5px #4F4F4D;
+	transform: translateY(4px);
+}
+
+div.tiles-content{
+	margin-left: auto;
+    margin-right: auto;
+}
+
 div#smallerprojects-row1.row.small-8.center {
 	margin-top: 1rem;
 	margin-bottom: 1rem;
 	display: flex;
 	justify-content: space-between;
-}
+	align-items: center; 
+}		
 
 div#smallerprojects-row2.row.small-8.center {
 	margin-bottom: 1rem;
