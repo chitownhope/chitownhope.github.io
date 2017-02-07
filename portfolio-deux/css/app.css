@@ -127,6 +127,9 @@ div.tiles-content{
     margin-right: auto;
 }
 
+a.smallerprojects-links{
+	color:black;
+}
 div#smallerprojects-row1.row.small-8.center {
 	margin-top: 1rem;
 	margin-bottom: 1rem;
