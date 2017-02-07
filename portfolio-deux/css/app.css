@@ -319,9 +319,9 @@ div.small-6.columns.largerprojects-p {
 
 
 /*
-PROJECTS--smaller--thumbnails
+PROJECTS--smaller
 ***********************************************************************************************/
-#skills {
+p#skills {
 	overflow: auto;
 	background-color: black;
 	font-size: 1.3rem;
@@ -329,12 +329,28 @@ PROJECTS--smaller--thumbnails
 	text-align: center;
 }
 
-div.small-6.center.columns.tiles {
+div.small-6.center.columns.tiles.button {
 	height: 5rem;
 	margin-right: 1rem;
 	font-size: .75rem;
 	display: flex;
     justify-content: center;
+    width: 6rem;
+}
+div#smallerprojects-row1.row.small-8.center {
+	margin-top: 1rem;
+	/*margin-bottom: 1rem;*/
+	width: 90%;
+	display: flex;
+	/*justify-content: space-between;*/
+	align-items: center; 
+}		
+
+div#smallerprojects-row2.row.small-8.center {
+	/*margin-bottom: 1rem;*/
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
 }
 
 /*QUOTES
