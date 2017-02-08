@@ -542,7 +542,7 @@ div.box.background-arrows {
 ***********************************************************************************************/
 div#quotes.large-12.medium-12.small-12.columns {
 	font-size: 1.6rem;
-	/*padding-top: 6rem;*/
+	padding-top: 4rem;
 	height: 15rem;
 	text-align: center;
 }
